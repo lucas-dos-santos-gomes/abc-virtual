@@ -5,7 +5,7 @@ export default function Home() {
     <main>
       <div>
         <p>Get started by editing&nbsp;</p>
-        <Link href="/Register">Login</Link>
+        <Link href="/Sign">Login</Link>
       </div>
     </main>
   );
