@@ -1,12 +1,12 @@
-import Link from "next/link";
+import Header from '../components/Header';
 
-export default function Home() {
+export default function PreHome() {
   return (
-    <main>
-      <div>
-        <p>Get started by editing&nbsp;</p>
-        <Link href="/Sign">Login</Link>
-      </div>
-    </main>
+    <>
+      <Header />
+      <main>
+        <h1>teste</h1>
+      </main>
+    </>
   );
 }

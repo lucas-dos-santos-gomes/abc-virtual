@@ -1,13 +1,15 @@
 'use client'
+
 import styled from "styled-components";
 
-const Button = styled.button`
-  background-color: #007bff;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+const Header = styled.header`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  padding: 1rem 2rem;
+  width: 100vw;
 `;
 
-export default Button;
+export default Header;
