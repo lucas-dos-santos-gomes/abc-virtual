@@ -4,7 +4,7 @@ import styles from './style.module.css';
 import Button from "../Button/style";
 import Link from "next/link";
 import React from 'react';
-import Header  from "./style";
+import Header from "./style";
 
 export default function PreHeader() {
   return (
@@ -20,8 +20,8 @@ export default function PreHeader() {
           <li><a href="#assine">Comece Agora</a></li>
           <li>
             <Link href="Sign">
-              <Button>
-                Pagina de login
+              <Button color="white" bgColor="purple" size="large">
+                Vamos começar?
               </Button>
             </Link>
           </li>

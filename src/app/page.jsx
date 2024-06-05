@@ -1,12 +1,19 @@
+import React from 'react';
 import Header from '../components/Header';
+import Section from '../components/Section';
+import Footer from '../components/Footer';
 
-export default function PreHome() {
+export default function Home() {
   return (
     <>
       <Header />
       <main>
-        <h1>teste</h1>
+        <Section />
+        <Section />
+        <Section />
+        <Section />
       </main>
+      <Footer />
     </>
   );
 }
