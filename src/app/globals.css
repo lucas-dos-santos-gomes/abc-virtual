@@ -11,4 +11,6 @@
 
 body {
   padding-top: 70px;
+  background-image: url("/svg/fundo-estrelado.svg");
+  background-size: cover;
 }

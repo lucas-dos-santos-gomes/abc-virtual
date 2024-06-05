@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import styles from './style.module.css';
 import Button from "../Button/style";
 import Link from "next/link";
