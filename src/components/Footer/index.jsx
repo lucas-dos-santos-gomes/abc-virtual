@@ -1,3 +1,11 @@
 export default function Footer() {
-  return <></>;
+  return (
+    <>
+      <ul>
+        <li>teste1</li>
+        <li>teste2</li>
+        <li>teste3</li>
+      </ul>
+    </>
+  );
 }
