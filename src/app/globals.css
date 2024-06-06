@@ -8,3 +8,9 @@
 :root {
   font-size: 10px;
 }
+
+body {
+  padding-top: 70px;
+  background-image: url("/svg/starry-bg.svg");
+  background-size: cover;
+}
