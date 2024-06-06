@@ -1,10 +1,23 @@
 'use client'
 import styled, { css } from "styled-components";
 
-export const SectionStyled = styled.section`
-  height: 80vh;
+const leftElement = {
+  img: css`
+    flex-direction: column;
+  `,
+  text: css`
+    flex-direction: row;
+  `
+}
+
+const Section = styled.section`
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-around;
-  flex-direction: ${({ imgLeft }) => imgLeft ? css`row-reversed` : css`row`};
+  padding: 1rem 2rem;
+  width: 100vw;
+  height: 80vh
+  ${({ left }) => console.log(leftElement[left])};
 `;
+
+export default Section;

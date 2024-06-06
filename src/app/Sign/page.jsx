@@ -8,7 +8,7 @@ export default function Signup() {
         <div className="login">
           <h1>login</h1>
         </div>
-        
+
         <div className="cadastro">
           <h1>cadastro</h1>
         </div>
