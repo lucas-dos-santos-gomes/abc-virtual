@@ -1,23 +1,14 @@
 'use client'
-import styled, { css } from "styled-components";
-
-const leftElement = {
-  img: css`
-    flex-direction: column;
-  `,
-  text: css`
-    flex-direction: row;
-  `
-}
+import styled from "styled-components";
 
 const Section = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  width: 100vw;
-  height: 80vh
-  ${({ left }) => console.log(leftElement[left])};
+  width: 100%;
+  height: 80vh;
+  flex-direction: ${({ imgLeft }) => imgLeft ?? "row-reverse"};
 `;
 
 export default Section;

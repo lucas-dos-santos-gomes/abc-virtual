@@ -8,8 +8,8 @@ export default function Home() {
     <>
       <Header />
       <main>
-        <Section text={'ABC Virtual'} img={"/svg/logo.svg"} left="img"></Section>
-        <Section text={'ABC Virtual'} img={"/svg/logo.svg"} left="text"></Section>
+        <Section text={'ABC Virtual'} img={"/svg/logo.svg"}></Section>
+        <Section text={'ABC Virtual'} img={"/svg/logo.svg"} imgLeft></Section>
         <section>
           <Image width={400} height={400} src="/svg/logo.svg" alt="logo" />
           <div>
