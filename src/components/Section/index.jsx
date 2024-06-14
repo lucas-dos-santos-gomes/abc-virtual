@@ -1,11 +1,14 @@
 import Image from "next/image";
 import SectionStyled from "./style";
 
-export default function Section({ text, img, ...props }) {
+export default function Section({ title, text, img, ...props }) {
   return (
     <SectionStyled {...props}>
-      <h1>{text}</h1>
-      <Image width={200} height={200} src={img} alt={img} />
+      <div>
+        <h1>{title}</h1>
+        <p>{text}</p>
+      </div>
+      <Image width={300} height={300} src={img} alt={img} />
     </SectionStyled>
   );
 }
