@@ -8,6 +8,15 @@ export const Card = styled.div`
   padding: 16px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
+  margin: 0 10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50vh;
+  background: #d9d9d9;
+  div {
+    background: #283D7D;
+  }
 `;
 
 export const Title = styled.h2`
@@ -21,7 +30,9 @@ export const Price = styled.p`
   margin: 8px 0;
 `;
 
-export const Content = styled.p`
+export const Button = styled.button`
   font-size: 16px;
   color: #333;
 `;
+
+export default Card;

@@ -5,4 +5,24 @@
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 2rem;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+}
+
+.cardsPay {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    padding: auto 10px;
+}
+
+.sectionPay {
+    background-color: rgba(217, 217, 217, 0.5);;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }

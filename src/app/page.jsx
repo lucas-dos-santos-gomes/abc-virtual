@@ -33,9 +33,9 @@ export default function Home() {
       <Header />
       <main>
         {texts.map((e, index) => <Section key={index} title={e.title} text={e.text} img={e.img} imgLeft={index % 2 == 1} />)}
-        <section>
-          <h1>mensalidades</h1>
-          <div>
+        <section className='sectionPay'>
+          <h1>Plano de assinatura</h1>
+          <div className='cardsPay'>
             <Card
               title="Plano Básico"
               price="R$ 29,99"
@@ -47,6 +47,12 @@ export default function Home() {
               price="R$ 59,99"
               imgSrc="/img/celular.png"
               content="Este é o plano premium."
+            />
+            <Card
+              title="Plano maximo"
+              price="R$ 89,99"
+              imgSrc="/img/celular.png"
+              content="Este é o plano maximo."
             />
           </div>
         </section>
