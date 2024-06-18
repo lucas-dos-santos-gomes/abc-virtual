@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import Image from 'next/image';
-import { Card, Title, Price, Button } from './style';
+import { Card, Title, Price } from './style';
+import Button from '@/components/Button/style';
 import styles from './style.module.css';
 
 const SubscriptionCard = ({ title, price, imgSrc, content }) => {
@@ -11,7 +12,9 @@ const SubscriptionCard = ({ title, price, imgSrc, content }) => {
         <Price>{price} por mês</Price>
       </div>
       <Image className={styles.img} src={imgSrc} alt={`${title} image`} width={200} height={200} />
-      <Button>{content}</Button>
+      <Button color="white" bgColor="#DE5151" size="large">
+        Vamos começar?
+      </Button>
     </Card>
   );
 };
