@@ -1,6 +1,7 @@
 import Header from '@/components/Header/index';
 import Section from '@/components/Section';
 import Footer from '@/components/Footer';
+import Card from '@/components/Card/Mensalidade';
 import './style.css'
 
 export default function Home() {
@@ -34,6 +35,7 @@ export default function Home() {
         {texts.map((e, index) => <Section key={index} title={e.title} text={e.text} img={e.img} imgLeft={index % 2 == 1}/>)}
         <section>
           <h1>mensalidades</h1>
+          <Card/>
         </section>
       </main>
       <Footer />
