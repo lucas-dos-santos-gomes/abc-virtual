@@ -39,13 +39,13 @@ export default function Home() {
             <Card
               title="Plano Básico"
               price="R$ 29,99"
-              imgSrc="/path/to/image.jpg"
+              imgSrc="/img/celular.png"
               content="Este é o plano básico."
             />
             <Card
               title="Plano Premium"
               price="R$ 59,99"
-              imgSrc="/path/to/image.jpg"
+              imgSrc="/img/celular.png"
               content="Este é o plano premium."
             />
           </div>
