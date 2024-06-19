@@ -1,7 +1,7 @@
 import Header from '@/components/Header/index';
 import Section from '@/components/Section';
 import Footer from '@/components/Footer';
-import Card from '@/components/Card/Mensalidade';
+import Card from '@/components/Card/signature';
 import './style.css'
 
 export default function Home() {

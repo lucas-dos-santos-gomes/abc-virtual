@@ -9,7 +9,7 @@ const Header = styled.header`
   position: fixed;
   top: 0px;
   padding: 1rem 2rem;
-  width: 100vw;
+  width: 100%;
 `;
 
 export default Header;
